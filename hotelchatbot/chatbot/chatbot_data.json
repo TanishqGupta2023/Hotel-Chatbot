@@ -1,0 +1,565 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good Afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to our hotel. How can I assist you today?"
+      ]
+    },
+  {
+      "tag": "hotel_timings",
+      "patterns": [
+        "What is timing of hotel",
+        "What are timing of hotel",
+        "What are the hotel timings?",
+        "What is time of your hotel",
+        "What is the timing of hotel?",
+        "When does the hotel open and close?",
+        "Hotel opening hours",
+        "At what hotel opens and closes",
+        "Tell me hotel timings",
+        "What is time of hotel"
+      ],
+      "responses": [
+        "Our hotel is open 24/7. Check-in time is from 2 PM and check-out time is by 11 AM."
+      ]
+    },
+    {
+      "tag": "room_availability",
+      "patterns": [
+        "What is availability of room",
+        "Do you have any rooms available?",
+        "Are rooms available today?",
+        "Are rooms available?",
+        "Can I check room availability?"
+      ],
+      "responses": [
+        "Yes, we have rooms available. What dates are you looking for?"
+      ]
+    },
+    {
+      "tag": "room_types",
+      "patterns": [
+        "What types of rooms do you offer?",
+        "Tell me about your rooms",
+        "What are room types",
+        "What are room types available",
+        "Do you have suites or deluxe rooms?"
+      ],
+      "responses": [
+        "We offer standard, deluxe, and suite rooms. Each comes with complimentary breakfast and Wi-Fi."
+      ]
+    },
+     {
+    "tag": "room_booking",
+    "patterns": [
+      "How can I book a room?",
+      "Can I reserve a room online?",
+      "I want to book a room",
+      "What is the process to book a room?",
+      "Do you take online bookings?",
+      "Room booking procedure?",
+      "How to book a room"
+    ],
+    "responses": [
+      "You can book a room through our website or call our front desk at +91-974578712 for assistance."
+    ]
+  },
+    {
+      "tag": "cancel_booking",
+      "patterns": [
+        "How can I cancel my booking?",
+        "Cancel my reservation",
+        "How to cnacel my booking",
+        "How can i cancel my room",
+        "Please cancel my room",
+        "I want to cancel my room"
+      ],
+      "responses": [
+        "You can cancel your booking through the confirmation email or call our front desk at 123-456-7890."
+      ]
+    },
+    {
+  "tag": "room_availability",
+  "patterns": [
+    "What is availability of room",
+    "Do you have any rooms available?",
+    "Are rooms available today?",
+    "Are rooms available?",
+    "Can I check room availability?"
+  ],
+  "responses": [
+    "Yes, we currently have rooms available.",
+    "Rooms are available! Let me know if you need help with booking.",
+    "We have availability at the moment. Feel free to ask about room types or prices."
+  ]
+},
+    {
+      "tag": "checkin_checkout",
+      "patterns": [
+        "At what time hotel check in and check out happens",
+        "What is timing of your hotel check-in and check-out",
+        "What is timing of check-in and check-out",
+        "What is time of check-in and check-out",
+        "What is your check-in time?",
+        "When do I need to check out?",
+        "Tell me check-in and check-out time"
+      ],
+      "responses": [
+        "Check-in starts at 2 PM and check-out is at 11 AM."
+      ]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": [
+        "Do you have a restaurant?",
+        "Is there food available?",
+        "Tell me about your dining options",
+        "What is timing of your restaurant",
+        "What is timing of Restaurant",
+        "Is your open at morning",
+        "what is timing of restaurant",
+        "what is time of restaurant",
+        "Is your open at afternoon",
+        "Is your open at night"
+      ],
+      "responses": [
+        "Yes, we have a multi-cuisine restaurant open from 7 AM to 10 PM."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What amenities do you provide?",
+        "Any facilities like pool or gym?",
+        "Tell me about the hotel services",
+        "What facilties are there in hotel",
+        "Do hotel provide any facilties",
+        "What facilities do you provide",
+        "What are facilities in hotel",
+        "What are facilities provided"
+      ],
+      "responses": [
+        "We offer free Wi-Fi, swimming pool, gym, spa, and room service."
+      ]
+    },
+    {
+      "tag": "gym_timings",
+      "patterns": [
+      "What is timing of your gym?", 
+      "At what time gym opens",
+      "At what time gym close",
+      "Is gym open at night",
+      "Is gym open at morning",
+      "Is gym open at afternoon",
+      "What are timings of gym"
+    ],
+      "responses": [
+        "Our gym is open from 6 a.m to 10 p.m.You can use the gym between 6 a.m and 10 p.m"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "Thanks, see you",
+        "Talk to you later",
+        "Thanku",
+        "Thankyou"
+      ],
+      "responses": [
+        "Thank you for contacting us. Have a great day!",
+        "Goodbye! Feel free to reach out again."
+      ]
+    },
+    {
+      "tag": "pool_timings",
+      "patterns": [
+        "When can I use the swimming pool?",
+        "What is pool timings?",
+        "What are the pool hours?",
+        "Is the pool open now?",
+        "What is timing of your pool?",
+        "Tell me about your swimming pool",
+        "What are timings of pool",
+        "What is time of pool",
+        "What is time of swimming pool",
+        "What is timings of pool in hotel",
+        "What are timings of swimmings pool",
+        "What is time of swimmings pool",
+        "What is timing of swimming pool in your hotel"
+      ],
+      "responses": [
+        "Our swimming pool is open from 7 AM to 8 PM. Please wear proper swim attire."
+      ]
+    },
+    {
+      "tag": "spa_timings",
+      "patterns": [
+        "What are the spa hours?",
+        "When does the spa open?",
+        "What is spa timings",
+        "Tell me about spa timings",
+        "Is the spa open today?",
+        "What is time of spa",
+        "What is timings of hotel spa",
+        "What is timings of your spa"
+      ],
+      "responses": [
+        "Our spa is open from 9 AM to 9 PM every day. Advance booking is recommended."
+      ]
+    },
+    {
+      "tag": "room_service",
+      "patterns": [
+        "Do you have room service?",
+        "Can I order food to my room?",
+        "Tell me about your room service",
+        "How do I use room service?",
+        "What is time of room service",
+        "How to contact with room service",
+        "Is room service available in hotel"
+      ],
+      "responses": [
+        "Yes, room service is available 24/7. Please dial 101 from your room phone to place an order."
+      ]
+    },
+    {
+  "tag": "hotel_timings",
+  "patterns": [
+    "What are the hotel timings?",
+    "What is time of your hotel",
+    "What is the timing of hotel?",
+    "When does the hotel open and close?",
+    "Hotel opening hours",
+    "At what hotel opens and closes",
+    "Tell me hotel timings",
+    "What is time of hotel"
+  ],
+  "responses": [
+    "Our hotel is open 24/7. Check-in time is from 2 PM and check-out time is by 11 AM."
+  ]
+},
+    {
+      "tag": "hotel_location",
+      "patterns": [
+        "Where is your hotel located?",
+        "What is the address of your hotel?",
+        "Are you located in Lonavala?",
+        "What is the name of the hotel in Lonavala?",
+        "What is name of hotel",
+        "What is name of your hotel",
+        "Is hotel located in lonavala",
+        "Tell me your hotel name and location",
+        "What is hotel loacted",
+        "In lonavala where your hotal is located"
+      ],
+      "responses": [
+        "Our hotel, *Hilltop Retreat*, is located in Lonavala, near Tiger Point. It's a peaceful escape surrounded by nature."
+      ]
+    },
+    {
+      "tag": "room_price",
+      "patterns": [
+        "What is the price of your rooms?",
+        "How much do rooms cost?",
+        "Room rates please",
+        "Tell me the room charges",
+        "What is price of room",
+        "What is the cost per night?",
+        "What is the price of a room in your hotel"
+      ],
+      "responses": [
+        "Our room prices start from ₹5,000 per night for standard rooms. Deluxe and suites cost more depending on availability and season."
+      ]
+    },
+    {
+      "tag": "number_of_rooms",
+      "patterns": [
+        "How many rooms do you have?",
+        "Total rooms in your hotel?",
+        "What is your room capacity?",
+        "Do you have enough rooms for a group?",
+        "What is number of rooms in hotel",
+        "How many number of rooms are there",
+        "How many number of rooms are there in your hotel"
+      ],
+      "responses": [
+        "We have a total of 40 rooms, including standard, deluxe, and suite options. Perfect for both individual and group bookings."
+      ]
+    },
+    {
+      "tag": "star_rating",
+      "patterns": [
+        "What is your star rating?",
+        "Are you a 3 star or 5 star hotel?",
+        "Is your hotel 4-star?",
+        "Is your hotel 5-star?",
+        "How many stars does your hotel have?",
+        "What is ratings of hotel"
+      ],
+      "responses": [
+        "We are a 4-star hotel offering top-notch facilities including a pool, spa, gym,restaurant, and scenic views."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "What is your contact number?",
+        "How can I call the hotel?",
+        "Give me your phone number",
+        "Hotel contact details",
+        "How do I reach you?",
+        "Send hotel contact details",
+        "Send hotel contact info",
+        "Send hotel contact information",
+        "How to contact your hotel"
+      ],
+      "responses": [
+        "You can contact us at +91-9876543210 or email us at hilltop@gmail.com. We're happy to assist you!"
+      ]
+    },
+    {
+      "tag": "seasonal_offers",
+      "patterns": [
+        "Do you have any seasonal offers?",
+        "Are there any discounts during holidays?",
+        "Any festive deals available?",
+        "Is there a monsoon or summer offer?",
+        "Tell me about your special packages",
+        "Do you have any discounts",
+        "Do you have any offers",
+        "Is there any offer in hotel right now",
+        "At what time hotel has offers"
+      ],
+      "responses": [
+        "Yes! We have exciting seasonal offers. For example, during summer we offer 20% off on deluxe rooms, and during festivals like Diwali or Christmas, we provide special packages with complimentary dinner. Please contact us for current deals!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdasd",
+        "Tell me a joke",
+        "What is the capital of Mars?",
+        "Can you sing a song?",
+        "nmnmcxm",
+        "Who won the cricket match?"
+      ],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase?",
+        "Oops! That’s outside my knowledge. Can I help you with hotel services?",
+        "I'm here to help with hotel-related queries. Please ask something relevant."
+      ]
+    },
+    {
+      "tag": "nearby_attractions",
+      "patterns": [
+        "What are some nearby attractions?",
+        "Places to visit near your hotel?",
+        "Tourist spots in Lonavala?",
+        "Is anything interesting near the hotel?",
+        "What are places near your hotel"
+      ],
+      "responses": [
+        "Lonavala has many attractions nearby like Bhushi Dam, Tiger’s Point, Karla Caves, and Lonavala Lake. Let us know if you'd like help planning your visit!"
+      ]
+    },
+    {
+      "tag": "restaurant_menu",
+      "patterns": [
+        "Can I see the menu?",
+        "What's on the menu?",
+        "What is your restaurant menu",
+        "Is there restaurant in your hotel",
+        "Is your restaurant veg or non-veg",
+        "Show me your food options",
+        "What is menu of restaurant"
+      ],
+      "responses": [
+        "We offer a wide variety including Indian, Chinese, and Continental dishes. Our restaurant is veg and non-veg both.You can view the full menu at our restaurant or through the hotel app."
+      ]
+    },
+    {
+      "tag": "table_booking",
+      "patterns": [
+        "Can I book a table?",
+        "I want to reserve a table",
+        "Is table reservation possible?",
+        "How to book a table in restaurant",
+        "How to book a table in your restaurant"
+      ],
+      "responses": [
+        "Yes, you can reserve a table. Please let us know the time and number of guests."
+      ]
+    },
+    {
+      "tag": "hotel_garden",
+      "patterns": [
+        "Do you have a garden?",
+        "Is there a garden in your hotel?",
+        "Any garden or outdoor area?",
+        "Any garden in your hotel",
+        "Is there park in your hotel",
+        "Is there garden in hotel",
+        "Is there any play area for children in your hotel"
+      ],
+      "responses": [
+        "Yes, our hotel features a beautiful landscaped garden where guests can relax and enjoy the natural surroundings."
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Is parking available?",
+        "Do you have parking?",
+        "Is there a parking lot?",
+        "Can I park my car there?",
+        "How can i park my car there",
+        "How can i park my car in hotel",
+        "Is car parking available in hotel",
+        "Is parking available in the hotel",
+        "Parking available?",
+        "Is parking available in your hotel"
+        ],
+      "responses": [
+        "Yes, we offer free parking for all guests staying at our hotel."
+      ]
+    },
+    {
+      "tag": "pets_policy",
+      "patterns": [
+        "Are pets allowed?",
+        "Can I bring my dog?",
+        "Do you allow pets?",
+        "Is your hotel pet-friendly?",
+        "Do you allow pets?",
+        "Can I bring my dog?",
+        "Is your hotel pet-friendly?",
+        "Are pets allowed in the hotel?",
+        "Can we bring animals?",
+        "Do you accept service animals?",
+        "Is your hotel pet friendly",
+        "Can I bring a pet"
+      ],
+      "responses": [
+        "We currently do not allow pets in the hotel, except for service animals."
+      ]
+    },
+  {
+    "tag": "extra_bed",
+    "patterns": [
+      "How much is the charge for an extra bed?",
+      "Do you provide extra beds?",
+      "Is there an extra bed facility?",
+      "Can I request an extra bed?",
+      "Cost for extra bed?",
+      "How much charges for extra bed in room",
+      "Is extra bed available in room?",
+      "What is the price of an extra mattress?"
+    ],
+    "responses": [
+      "Yes, we provide extra beds on request. The charge is ₹800 per night per extra bed."
+    ]
+  },
+   {
+    "tag": "breakfast_timing",
+    "patterns": [
+      "What is the timing of complimentary breakfast?",
+      "What is the timing of breakfast?",
+      "What is the time of complimentary breakfast?",
+      "What is the time of breakfast?",
+      "When is breakfast served?",
+      "Breakfast timing?",
+      "At what time is breakfast available?",
+      "When can we have breakfast?",
+      "Is breakfast included? When is it served?"
+    ],
+    "responses": [
+      "Complimentary breakfast is served daily from 7:00 AM to 10:00 AM in our dining area."
+    ]
+  },
+
+{
+  "tag": "payment_methods",
+  "patterns": [
+    "Do you accept UPI?",
+    "Can I pay with a credit card?",
+    "What are the payment options?",
+    "Do you take online payments?",
+    "Can I pay with cash or card?",
+    "Is Google Pay accepted?",
+    "What modes of payment do you accept?",
+    "What is payment method?",
+    "Do you accept Google pay",
+    "Do you accept Phone pay"
+  ],
+  "responses": [
+    "We accept payments via UPI, credit/debit cards, and cash.",
+    "Yes, you can pay using UPI, cards, or cash at our hotel.",
+    "Multiple payment methods are available including Google Pay, PhonePe, cards, and cash."
+  ]
+},
+{
+  "tag": "cab_services",
+  "patterns": [
+    "Do you offer taxi service?",
+    "Can I book a cab from the hotel?",
+    "Is car rental available?",
+    "Can you arrange a cab for sightseeing?",
+    "Do you have car hire services?"
+  ],
+  "responses": [
+    "Yes, we can arrange local taxis and car rentals for sightseeing or travel. Please contact the front desk to make a booking."
+  ]
+},
+{
+  "tag": "special_decorations",
+  "patterns": [
+    "Can you arrange a birthday surprise?",
+    "Do you provide anniversary decorations?",
+    "I want to surprise my partner, do you offer decoration services?",
+    "Do you offer room decorations for special occasions?"
+  ],
+  "responses": [
+    "Yes, we offer birthday and anniversary room decoration packages. Contact our front desk for more details and pricing."
+  ]
+},
+{
+  "tag": "early_checkin_late_checkout",
+  "patterns": [
+    "Can I check in early?",
+    "Is late checkout possible?",
+    "What if I arrive early?",
+    "Do you allow early check-in or late checkout?",
+    "What is your early check-in policy?",
+    "Can I stay past checkout time?"
+  ],
+  "responses": [
+    "Early check-in and late checkout are subject to availability and may incur additional charges. Please contact the front desk for assistance."
+  ]
+},
+{
+  "tag": "event_booking",
+  "patterns": [
+    "Do you have a conference hall?",
+    "Can I book your event space?",
+    "Do you host parties or events?",
+    "Is banquet hall available?",
+    "I want to conduct a business meeting at the hotel"
+  ],
+  "responses": [
+    "Yes, we have fully equipped event and conference halls available for business meetings, parties, and other functions. Contact us for pricing and availability."
+  ]
+}
+  ]
+}
