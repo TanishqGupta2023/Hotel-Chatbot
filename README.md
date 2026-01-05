@@ -17,7 +17,7 @@ An interactive hotel chatbot built using Django and NLP to handle hotel-related 
 
 ## 🔹 How to Run
 ```bash
-git clone https://github.com/your-username/hotel-chatbot-django.git
+git clone https://github.com/TanishqGupta2023/Hotel-Chatbot.git
 cd hotel-chatbot-django
 pip install django nltk scikit-learn
 python manage.py runserver
